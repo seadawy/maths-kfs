@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+* {
+    font-family: 'Cairo', sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+nav {
+    height: 50px !important;
+}
+
+.a7a {
+    display: inline-block;
+}
+
+.course-section ul.section-list .section-item.completed .item {
+    color: aliceblue;
+    background-color: #63abbd !important;
+    border-bottom: 2px solid #f19d00;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.previous {
+    background-color: #9cc8d354;
+    color: black;
+}
+
+.next {
+    background-color: #9cc8d354;
+    color: white;
+    float: right;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.titles {
+    font-family: 'Cairo', sans-serif;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    margin: 5px !important;
+}
+
+.pdf-file {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+a.pdf-file:hover {
+    background: rgba(204, 204, 204, 0.404) !important;
+}
+
+.course-section ul.section-list .section-item.completed .item:hover {
+    color: seashell;
+}

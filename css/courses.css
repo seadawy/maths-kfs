@@ -1,0 +1,229 @@
+body {
+    background: url(../img/b.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+nav {
+    height: 50px !important;
+}
+
+.diva {
+    width: 300px;
+    height: 370px;
+    display: table-cell;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rebeccapurple;
+}
+
+* {
+    font-family: 'Sriracha', cursive;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+h1 {
+    font-family: 'Sriracha', cursive !important;
+    user-select: none;
+    color: #ddd !important;
+    -moz-user-select: none;
+}
+
+.acontiner {
+    margin: 1%;
+}
+
+.diva:hover {
+    background-image: url(../img/go.png);
+    background-size: auto;
+    background-color: #ffffff;
+}
+
+.p1 {
+    background-image: url(../img/1p.jpg);
+}
+
+.p2 {
+    background-image: url(../img/2p.jpg);
+}
+
+.p3 {
+    background-image: url(../img/3p.jpg);
+}
+
+.s1 {
+    background-image: url(../img/1s.jpg);
+}
+
+.s2 {
+    background-image: url(../img/2s.jpg);
+}
+
+.s3 {
+    background-image: url(../img/3s.jpg);
+}
+
+/* TAPS */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgb(138, 138, 138);
+    border-radius: .25rem;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    flex-shrink: 0;
+    width: 100%;
+    -ms-flex-negative: 0;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+a.btn, a.btn:hover, a.btn:focus {
+    display: inline-block;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none !important;
+    color: #494949;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
