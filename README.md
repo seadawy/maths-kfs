@@ -14,4 +14,4 @@ Reid Hoffman’s quote — “If you are not embarrassed by the first version of
 ## Note
 
 #### The website has gone through a lot of changes based on customer requirements
-<p> You can still find the website <a href="https://math-kfs.com/" target="_blank">here</a></p> 
+<p> You can still find the website <a href="https://maths-kfs.com/" target="_blank">here</a></p> 
